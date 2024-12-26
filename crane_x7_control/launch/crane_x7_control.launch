@@ -14,8 +14,9 @@
         type="spawner" respawn="false"
         output="screen"
         args="joint_state_controller
-              arm_controller
               gripper_controller"/>
+              <!-- arm_controller -->
+              <!-- gripper_controller"/>  -->
 
     <node name="crane_x7_control" pkg="crane_x7_control" type="crane_x7_control" output="screen" respawn="false">
       <!-- <param name="config_ns" value="/crane_x7"/> -->
